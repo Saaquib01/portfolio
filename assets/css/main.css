@@ -2446,7 +2446,7 @@ input, select, textarea {
   	justify-content: center;
 }
 
-/* My effect for Pojects header */
+/* My effect for Projects header */
 
 .shadows-1 {
 	position: relative;
@@ -3027,6 +3027,48 @@ line-height: 3.5em;
 font-size: 0.8em;
 }
 }
+/* My code for two section */
+
+.work-item-2 {
+	padding: 30px;
+	box-shadow: 0px 0px 20px #c9d9e7, 0px 0px 40px #dfe8f3;
+	margin-bottom: 20px;
+  }
+  
+  .work-item-2:hover {
+	transform: translate3d(0px, -5px, 0px);
+	box-shadow: 0px 5px 20px #c9d9e7, 0px 5px 40px #dfe8f3;
+  }
+  
+  .work-item-2 img {
+	display: block;
+	margin: 0 auto;
+  }
+  
+  .work-item-2 h3 {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: black;
+	text-decoration: underline;
+  }
+  
+  .work-item-2 p {
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.3;
+	color: black;
+	margin-bottom: 0;
+  }
+  
+  .work-item-2 img {
+	width: 100%;
+	height: auto;
+	max-height: 200px;
+  }
+  
+
 
 /* My code for three section */
 
@@ -3035,6 +3077,7 @@ font-size: 0.8em;
 	text-decoration: underline;
 	font-weight: bold;
 	font-size: 1.1em;
+	text-align: center;
   }
   
 
