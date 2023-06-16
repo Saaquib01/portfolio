@@ -2572,9 +2572,9 @@ input, select, textarea {
   /* Media query*/
   @media (max-width: 390.40px) {
 	.sectionheader {
-		font-size: 30px;
-		width: 115%;
+		font-size: 15px;
 		height: 80%;
+		width: 115%;
 	}
 }
 
@@ -2586,6 +2586,12 @@ input, select, textarea {
 	object-fit: cover;
   }
   
+  /* Media query*/
+  @media (max-width: 390.40px) {
+	.work-item img {
+		height: 150px;
+	}
+}
 
 /* My effects for typing */
 
@@ -2935,8 +2941,8 @@ body {
 	.btn-slide-3 {
 		font-size: 15px;
 		padding: 0.1em 0.5em;
-		margin-top: 0px;
 		margin-left: 10px;
+		margin-top: 0px;
 	}
   }
 
