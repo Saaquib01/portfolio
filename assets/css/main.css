@@ -2626,10 +2626,17 @@ body {
   @media (max-width: 768px) {
 	.btn-bubble {
 	  font-size: 25px;
-	  padding: 1em 9.5em;
+	  padding: 1em 9em;
 	}
   }
   
+  @media (max-width: 390.40px) {
+	.btn-bubble {
+	  font-size: 12px;
+	  padding: 0.8em 16.5em;
+	}
+  }
+
 
 /* My code for project button */
 
@@ -2697,7 +2704,7 @@ body {
 	  font-size: 20px;
 	  padding: 0.4em 3em;
 	  margin-top: 180px;
-	  margin-left: -740px;
+	  margin-left: -730px;
 	}
   }
 
