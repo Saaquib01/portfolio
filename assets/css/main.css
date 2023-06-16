@@ -2465,7 +2465,7 @@ input, select, textarea {
 	top: 50%;
 	left: 40%;
 	transform: translate(-50%, -50%);
-	width: 180%;
+	width: 120%;
 	height: 100%;
 	background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 120%);
 	opacity: 0.8;
@@ -2479,7 +2479,7 @@ input, select, textarea {
 	text-transform: uppercase;
 	color: #1a1a1a;
 	font-family: 'Raleway', sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 	letter-spacing: 0.1em;
 	text-shadow: 2px 2px #bfbfbf;
 	text-decoration: underline;
@@ -2491,7 +2491,7 @@ input, select, textarea {
 	top: 50%;
 	left: 40%;
 	transform: translate(-50%, -50%);
-	width: 180%;
+	width: 120%;
 	height: 100%;
 	background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 120%);
 	opacity: 0.8;
@@ -2517,7 +2517,7 @@ input, select, textarea {
 	top: 50%;
 	left: 40%;
 	transform: translate(-50%, -50%);
-	width: 180%;
+	width: 120%;
 	height: 150%;
 	background: linear-gradient(to bottom, #f5f5f5 0%, #ffffff 120%);
 	opacity: 0.8;
@@ -2536,9 +2536,8 @@ input, select, textarea {
 /* My effects for typing */
 
 .typing-effect {
-	font-size: 150px;
-	margin-top: -50px;
-	margin-left: 180px;
+	font-size: 200px;
+	margin-top: -0px;
 	font-weight: bold;
 	background: linear-gradient(45deg, #f093fb, #f5576c, #bc2a8d, #3c1e70);
 	-webkit-background-clip: text;
@@ -2578,46 +2577,59 @@ body {
 	background-position: center;
   }
   
-
-  
-
 /* My code for resume button */
 
 .btn-bubble {
-  color: rgb(0, 0, 0);
-  background-color: #e5fdf8;
-  background-repeat: no-repeat;
-  margin-top: 50px;
-  margin-left: -40px;
-}
-.btn-bubble:hover, .btn-bubble:focus {
-  -webkit-animation: bubbles 1s forwards ease-out;
-          animation: bubbles 1s forwards ease-out;
-  background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 16% 85% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) -6% 81% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 110% 112% / 1.06em 1.06em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 55% 136% / 0.62em 0.62em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 96% 128% / 1.03em 1.03em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 83% 124% / 1.15em 1.15em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 51% 96% / 0.95em 0.95em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 78% 104% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 70% 133% / 0.95em 0.95em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 89% 88% / 0.65em 0.65em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 53% 87% / 0.78em 0.78em;
-  background-color: #72f4e7;
-  background-repeat: no-repeat;
-}
-
-@-webkit-keyframes bubbles {
-  100% {
-    background-position: 18% -23%, 0% -164%, 116% 21%, 55% -66%, 103% -203%, 80% -205%, 48% 15%, 78% -60%, 65% -399%, 87% 34%, 59% -85%;
-    box-shadow: inset 0 -6.5em 0 #12d7f9;
+	color: rgb(0, 0, 0);
+	background-color: #e5fdf8;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-left: -40px;
   }
-}
-
-@keyframes bubbles {
-  100% {
-    background-position: 18% -23%, 0% -164%, 116% 21%, 55% -66%, 103% -203%, 80% -205%, 48% 15%, 78% -60%, 65% -399%, 87% 34%, 59% -85%;
-    box-shadow: inset 0 -6.5em 0 #12d7f9;
+  .btn-bubble:hover, .btn-bubble:focus {
+	-webkit-animation: bubbles 1s forwards ease-out;
+			animation: bubbles 1s forwards ease-out;
+	background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 16% 85% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) -6% 81% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 110% 112% / 1.06em 1.06em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 55% 136% / 0.62em 0.62em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 96% 128% / 1.03em 1.03em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 83% 124% / 1.15em 1.15em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 51% 96% / 0.95em 0.95em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 78% 104% / 0.5em 0.5em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 70% 133% / 0.95em 0.95em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 89% 88% / 0.65em 0.65em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 53% 87% / 0.78em 0.78em;
+	background-color: #72f4e7;
+	background-repeat: no-repeat;
   }
-}
+  
+  @-webkit-keyframes bubbles {
+	100% {
+	  background-position: 18% -23%, 0% -164%, 116% 21%, 55% -66%, 103% -203%, 80% -205%, 48% 15%, 78% -60%, 65% -399%, 87% 34%, 59% -85%;
+	  box-shadow: inset 0 -6.5em 0 #12d7f9;
+	}
+  }
+  
+  @keyframes bubbles {
+	100% {
+	  background-position: 18% -23%, 0% -164%, 116% 21%, 55% -66%, 103% -203%, 80% -205%, 48% 15%, 78% -60%, 65% -399%, 87% 34%, 59% -85%;
+	  box-shadow: inset 0 -6.5em 0 #12d7f9;
+	}
+  }
+  
+  .btn {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em 10em;
+	white-space: nowrap;
+  }
 
-.btn {
-  display: inline-block;
-  text-decoration: none;
-  padding: 1em 10em;
-  white-space: nowrap;
-}
+  /* Media Query*/
+  @media (max-width: 1024px) {
+	.btn-bubble {
+	  font-size: 18px;
+	  padding: 0.6em 2.5em;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.btn-bubble {
+	  font-size: 25px;
+	  padding: 1em 9.5em;
+	}
+  }
+  
 
 /* My code for project button */
 
@@ -2775,6 +2787,7 @@ body {
 }
 
 	  
+
 
 /* My code for icon effect */
 
@@ -3788,7 +3801,7 @@ font-size: 0.8em;
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				/* padding: 6em 4em; */
 				width: 100%;
 			}
 
@@ -3851,7 +3864,7 @@ font-size: 0.8em;
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				/* padding: 2.25em 1.5em 0.25em 1.5em; */
 			}
 
 				#main > section {
