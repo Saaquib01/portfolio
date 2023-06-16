@@ -2658,10 +2658,16 @@ body {
   
   @media (max-width: 390.40px) {
 	.btn-bubble {
-	  font-size: 12px;
-	  padding: 0.8em 16.5em;
+	  font-size: 14px;
+	  padding: 0.9em 12em;
+	  margin-left: 8px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
 	}
   }
+  
 
 
 /* My code for project button */
