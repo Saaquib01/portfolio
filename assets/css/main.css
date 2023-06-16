@@ -2498,6 +2498,16 @@ input, select, textarea {
 	z-index: -1;
   }
 
+  /* Media Query */
+  @media (max-width: 390.40px) {
+	.shadows-1 {
+		font-size: 40px;
+		width: 115%;
+	}
+}
+
+
+
 /* My effect for publication header */
 
 .shadows {
@@ -2524,6 +2534,15 @@ input, select, textarea {
 	z-index: -1;
   }
   
+  /* Media query*/
+  @media (max-width: 390.40px) {
+	.shadows {
+		font-size: 35px;
+		width: 115%;
+	}
+}
+
+
 /* My effect for contact us header */
 
 .sectionheader {
@@ -2549,6 +2568,15 @@ input, select, textarea {
 	opacity: 0.8;
 	z-index: -1;
   }
+
+  /* Media query*/
+  @media (max-width: 390.40px) {
+	.sectionheader {
+		font-size: 30px;
+		width: 115%;
+		height: 80%;
+	}
+}
 
 /* My effect for image */
 
@@ -2740,6 +2768,16 @@ body {
 	}
   }
 
+  @media (max-width: 390.40px) {
+	.btn-slide {
+	  font-size: 15px;
+	  padding: 0.1em 0.5em;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	}
+  }
+
+
 
 /* My code for publications button */
 
@@ -2812,6 +2850,16 @@ body {
 	}
   }
 
+  @media (max-width: 390.40px) {
+	.btn-slide-2 {
+		font-size: 15px;
+		padding: 0.1em 0.5em;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+  }
+
+
 /* My code for contact button */
 
 .btn-slide-3 {
@@ -2882,6 +2930,15 @@ body {
 	  margin-left: -995px;
 	}
   }  
+
+  @media (max-width: 390.40px) {
+	.btn-slide-3 {
+		font-size: 15px;
+		padding: 0.1em 0.5em;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+  }
 
 
 /* My code for icon effect */
