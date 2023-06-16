@@ -2682,6 +2682,26 @@ body {
 	left: 80%;
 }
 
+  /* Media Query*/
+  @media (max-width: 1024px) {
+	.btn-slide {
+		font-size: 20px;
+		padding: 0.4em 3em;
+		margin-top: 150px;
+		margin-left: -250px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.btn-slide {
+	  font-size: 20px;
+	  padding: 0.4em 3em;
+	  margin-top: 180px;
+	  margin-left: -740px;
+	}
+  }
+
+
 /* My code for publications button */
 
 .btn-slide-2 {
@@ -2733,6 +2753,25 @@ body {
 .btn-slide-2:hover::after {
 	left: 80%;
 }
+
+  /* Media Query*/
+  @media (max-width: 1024px) {
+	.btn-slide-2 {
+		font-size: 20px;
+		padding: 0.4em 3em;
+		margin-top: 230px;
+		margin-left: -1500px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.btn-slide-2 {
+	  font-size: 20px;
+	  padding: 0.4em 3em;
+	  margin-top: 180px;
+	  margin-left: -990px;
+	}
+  }
 
 /* My code for contact button */
 
@@ -2786,7 +2825,24 @@ body {
 	left: 80%;
 }
 
-	  
+  /* Media Query*/
+  @media (max-width: 1024px) {
+	.btn-slide-3 {
+		font-size: 20px;
+		padding: 0.4em 3em;
+		margin-top: 312px;
+		margin-right: 1040px;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.btn-slide-3 {
+	  font-size: 20px;
+	  padding: 0.4em 3em;
+	  margin-top: 180px;
+	  margin-left: -995px;
+	}
+  }  
 
 
 /* My code for icon effect */
