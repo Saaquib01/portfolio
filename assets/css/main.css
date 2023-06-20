@@ -2472,6 +2472,14 @@ input, select, textarea {
   	justify-content: center;
 }
 
+@media (max-width: 390.40px) {
+	#header h1 strong {
+		font-family: Arial, sans-serif;
+		text-shadow: none;
+	}
+}
+
+
 /* My effect for Projects header */
 
 .shadows-1 {
@@ -3198,6 +3206,61 @@ line-height: 3.5em;
 font-size: 0.8em;
 }
 }
+
+/* My code for tiles */
+
+.tiles {
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #ddd;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s, box-shadow 0.3s;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px; /* Adjust the spacing between columns */
+  }
+  
+  .tiles:last-child {
+	margin-right: 0; /* Remove the margin for the last column */
+  }
+  
+  .tiles:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tile-content {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+	margin-top: 10px;
+  }
+  
+  .tiles a {
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  .tiles a:hover {
+	text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 /* My code for two section */
 
 .work-item-2 {
